@@ -15,6 +15,8 @@ El diseño está basado en el boceto proporcionado, utilizando una estética min
 
 Al ingresar con la pagina te encontraras con un formulario para ingresar los datos de tu mascota.
 
+![Imagen de pagina web](Imágenes/screenshot3.png)
+
 1. **Mascota** 
 Selecciona la especie de la mascota: gato o perro.
 
