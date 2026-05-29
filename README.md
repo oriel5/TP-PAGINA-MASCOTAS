@@ -1,6 +1,6 @@
 # Pagina web de veterinaria
 
-Proyecto web desarrollado con HTML y CSS para la gestion y visualizacion de mascotas para una veterinaria.
+Proyecto web desarrollado con HTML y CSS para la gestion y visualizacion de mascotas para una veterinaria.  
 El diseño está basado en el boceto proporcionado, utilizando una estética minimalista con tonos morados y elementos SVG personalizados.
 
 # Tecnologias Utilizadas
@@ -46,7 +46,7 @@ Permite subir imagenes de la mascota.
 
 # Autor
 
-Oriel Cardoso
+Oriel Cardoso  
 Estudiante de Tecnicatura en Desarrollo de Software.
 
 # Licencia
