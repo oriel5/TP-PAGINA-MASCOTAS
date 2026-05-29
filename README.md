@@ -3,6 +3,8 @@
 Proyecto web desarrollado con HTML y CSS para la gestion y visualizacion de mascotas para una veterinaria.  
 El diseño está basado en el boceto proporcionado, utilizando una estética minimalista con tonos morados y elementos SVG personalizados.
 
+![Imagen de pagina web](Imágenes/screenshot1.png)
+
 # Tecnologias Utilizadas
 
 - HTML5
@@ -43,6 +45,8 @@ Permite subir imagenes de la mascota.
 - Inputs personalizados.
 - Botones modernos.
 - Footer decorativo con SVG.
+
+![Imagen de pagina web](Imágenes/screenshot2.png)
 
 # Autor
 
