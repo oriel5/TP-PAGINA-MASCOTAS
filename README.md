@@ -47,6 +47,7 @@ Permite subir imagenes de la mascota.
 - Inputs personalizados.
 - Botones modernos.
 - Footer decorativo con SVG.
+- Diseño adaptable para distintos dispositivos
 
 ![Imagen de pagina web](Imágenes/screenshot2.png)
 

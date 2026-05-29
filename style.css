@@ -145,6 +145,8 @@
       font-family: Arial, sans-serif;
 }
 
+/*ESTILO HEADER*/
+
 header {
       position: sticky;
       top: 0;
@@ -165,6 +167,7 @@ header img {
 }
 
 /* BOTONES DE NAVEGACION DE HEADER */
+
 nav {
     display: flex;
     gap: 40px;
@@ -483,4 +486,99 @@ footer h2 {
 
 .copyright {
   font-size: 14px;
+}
+
+
+/* RESPONSIVE PARA CELULAR*/
+
+@media (max-width: 900px){
+
+  /* HEADER */
+
+  header{
+    padding: 0 20px;
+    height: auto;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  header img{
+    width: 140px;
+  }
+
+  nav{
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* TEXTO BIENVENIDOS */
+
+  .bienvenido{
+    font-size: clamp(2rem, 8vw, 3rem);
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* FORMULARIO */
+
+  .header-form{
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .form-container{
+    padding: 20px;
+  }
+
+  .form-grid{
+    grid-template-columns: 1fr;
+  }
+
+  input[type=text],
+  select{
+    width: 100%;
+  }
+
+  /* RADIO */
+
+  .radio-group{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* BOTON GUARDAR */
+
+  .btn-container{
+    justify-content: center;
+  }
+
+  .btn-save{
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  .contact-info{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contact-item{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer h2{
+    font-size: 32px;
+  }
+
+  .footer-text{
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
 }
