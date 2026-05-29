@@ -12,8 +12,8 @@
             <img src="Imágenes/logo.png" alt="Logo">
 
             <nav>
-                <a href="#">Lorem</a>
-                <a href="#">Lorem</a>
+                <a href="#">Home</a>
+                <a href="#mascota-section">Ingresar</a>
             </nav>
 
         </header>
@@ -23,101 +23,141 @@
             <div class="bienvenido">Bienvenidos!</div>
             <img src="Imágenes/imagen.png" alt="Mascotas">
             
-            <h1>Mascotas</h1>
+            <div class="header-form">
+                <h1>Mascotas</h1>
 
             <button class="btn-top">INGRESAR MASCOTA</button>
-
-            <div class="form-container">
-                <form>
-                    <label>Mascota*</label>
-
-                    <div class="radio-group">
-                        <label>
-                            <input type="radio" name="mascota" required>
-                            Gato
-
-                        </label>
-                        
-                        <label>
-                            <input type="radio" name="mascota" required>
-                            Perro
-                        </label> 
-                    </div>
-
-                    <div class="campo">
-                        <label>Nombre*</label>
-                        <input type="text" required>
-                    </div>
-
-                    <div class="campo">
-                        <label>Apodo*</label>
-                        <input type="text" required>
-                    </div>
-
-                    <div class="campo">
-                        <label>Edad aproximada*</label>
-                        <input type="text" required>
-                    </div>
-
-                    <div class="campo">
-                        <label>Sexo</label>
-                        <input type="text">
-                    </div>
-
-                    <div class="campo">
-                        <label>Descripción física*</label>
-                        <input type="text" required>
-                    </div>
-
-                    <div class="campo">
-                        <label>Caracteristicas</label>
-                    
-                        <select>
-                            
-                            <option>Color principal</option>
-                            <option value="negro">Negro</option>
-                            <option value="gris">Gris</option>
-                            <option value="blanco">Blanco</option>
-                            <option value="marron">Marron</option>
-                            <option value="naranja">Naranja</option>
-                            
-                        </select>
-                    </div>
-
-                    <div class="campo">
-                        <label>Ingresar caracteristicas</label>
-                        <input type="text">
-                    </div>
-
-                    <div class="campo">
-                        <label>Fotos</label>
-
-                        <div class="file-box">
-                            <label for="foto">Seleccionar archivo</label>
-                            <input type="file" id="foto">
-                            <span class="file-name">No se eligió archivo</span>
-                        </div>
-
-                    </div>
-
-                    <div class="btn-container">
-                        <button class="btn-save">GUARDAR</button>
-                    </div>
-
-                </form>
-
-
-
             </div>
 
+            <div id="mascota-section" class="form-container">
+                <form>
+                    
+                    <div class="form-grid">
 
-        
+                        <div class="campo">
+                            <label>Mascota*</label>
+
+                            <div class="radio-group">
+                                <label>
+                                    <input type="radio" name="mascota" required>
+                                    Gato
+
+                                </label>
+                                
+                                <label>
+                                    <input type="radio" name="mascota" required>
+                                    Perro
+                                </label> 
+                            </div>
+
+                        </div>
+
+                        
+
+                        <div class="campo">
+                            <label>Nombre*</label>
+                            <input type="text" required>
+                        </div>
+
+                        <div class="campo">
+                            <label>Apodo*</label>
+                            <input type="text" required>
+                        </div>
+
+                        <div class="campo">
+                            <label>Edad aproximada*</label>
+                            <input type="text" required>
+                        </div>
+
+                        <div class="campo">
+                            <label>Sexo</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="campo">
+                            <label>Descripción física*</label>
+                            <input type="text" required>
+                        </div>
+
+                        <div class="campo">
+                            <label>Caracteristicas</label>
+                        
+                            <select>
+                                
+                                <option>Color principal</option>
+                                <option value="negro">Negro</option>
+                                <option value="gris">Gris</option>
+                                <option value="blanco">Blanco</option>
+                                <option value="marron">Marron</option>
+                                <option value="naranja">Naranja</option>
+                                
+                            </select>
+                        </div>
+
+                        <div class="campo">
+                            <label>Ingresar caracteristicas</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="campo">
+                            <label>Fotos</label>
+
+                            <div class="file-box">
+                                <input type="file" id="foto" multiple>
+                                
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <h3>Los campos marcados con (*) son obligatorios</h3>
+
+                    <div class="btn-container">
+                            <button class="btn btn-save">GUARDAR</button>
+                    </div>
+                </form>
+            </div>
         </section>
 
 
         <footer>
-            <h1>footer moment</h1>    
+            <div class="footer-content">
+                
+                <h2>Contactanos</h2>
 
+                <p class="footer-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem dicta fugiat, temporibus commodi labore 
+                    nihil asperiores, reiciendis natus aperiam veritatis 
+                    neque eaque quis? Numquam beatae aliquid fuga enim quisquam a!
+                </p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="Imágenes/tel.svg" alt="Telefono">
+
+                        <h3>Telefono</h3>
+                        <p>+54 9 11 5162 0516</p>
+
+                    </div>
+
+                     <div class="contact-item">
+
+                        <img src="Imágenes/mail.svg" alt="Mail">
+
+                        <h3>Mail</h3>
+                        <p>info@vetonline.com</p>
+                    </div>
+                </div>
+
+                <div class="footer-line"></div>
+
+                <p class="copyright">
+                    Copyright Vet online © 2026. Todos los derechos reservados.
+                </p>
+
+            </div>
         </footer>
 
     </body>
